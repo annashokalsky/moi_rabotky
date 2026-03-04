@@ -13,7 +13,7 @@ func main() {
 		fmt.Println("Введи значение")
 		fmt.Scanf("%s\n", &code)
 		// Проверка на число 300
-		if code == "300" || code == "3 0 0" || code == "тристо" || code == "триста" {
+		if code == "300" || code == "тристо" || code == "триста" || code == "tristo" {
 			fmt.Println("Привет, отсоси у тракториста")
 			found = true
 			break
